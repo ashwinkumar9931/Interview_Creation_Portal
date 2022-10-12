@@ -9,10 +9,12 @@
 
 
 
-# Queries For MYSQL Database
-
+# Data-Defination For MYSQL Database
+Create Interview Table
 ### `CREATE TABLE interview (id INT NOT NULL AUTO_INCREMENT, title varchar(255), startTime DATETIME, endTime DATETIME, PRIMARY KEY(id));`
+Create Users Table
 ### `CREATE TABLE USERS (id INT NOT NULL AUTO_INCREMENT, EmailID VARCHAR(255) UNIQUE, Name VARCHAR(255), PRIMARY KEY(id));`
+Create Interview_User_Relation Table
 ### `CREATE TABLE interview_user_relation (interviewId INT NOT NULL, userId INT NOT NULL, FOREIGN KEY (interviewId) REFERENCES interview(id), FOREIGN KEY (userId) REFERENCES USERS(id));`
 
 
