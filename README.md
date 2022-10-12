@@ -23,6 +23,9 @@
 ### `CREATE TABLE interview_user_relation (interviewId INT NOT NULL, userId INT NOT NULL, FOREIGN KEY (interviewId) REFERENCES interview(id), FOREIGN KEY (userId) REFERENCES USERS(id));`
 
 
+Now, Insert number of users in 'USERS' table.
+
+
 
 # Getting Started with Create React App
 
