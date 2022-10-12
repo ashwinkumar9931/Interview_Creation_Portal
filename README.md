@@ -9,6 +9,13 @@
 
 
 
+# Queries For MYSQL Database
+
+### `CREATE TABLE interview (id INT NOT NULL AUTO_INCREMENT, title varchar(255), startTime DATETIME, endTime DATETIME, PRIMARY KEY(id));`
+### `CREATE TABLE USERS (id INT NOT NULL AUTO_INCREMENT, EmailID VARCHAR(255) UNIQUE, Name VARCHAR(255), PRIMARY KEY(id));`
+### `CREATE TABLE interview_user_relation (interviewId INT NOT NULL, userId INT NOT NULL, FOREIGN KEY (interviewId) REFERENCES interview(id), FOREIGN KEY (userId) REFERENCES USERS(id));`
+
+
 
 # Getting Started with Create React App
 
