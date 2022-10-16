@@ -12,7 +12,7 @@
 
 1) Create MySql database with the given schema as mentioned.
 2) Insert Some users into it
-3) Change the Enviorment Variables in the .env file:
+3) Change the Enviorment Variables in the .env file
     DB_Host=<Your-Host>
     DB_Name=<Your-NAME>
     DB_Username=<Your-USERNAME>
