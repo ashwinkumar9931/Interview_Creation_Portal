@@ -1,5 +1,6 @@
 # Interview_Creation_Portal
 
+Deployed Project URL: https://ashwinkumar9931.github.io/scalar-v2/
 
 ![UI-1](https://user-images.githubusercontent.com/56394186/195398448-c973ee6f-baeb-4c03-95cf-3d050907e33a.png)
 
