@@ -13,9 +13,9 @@
 1) Create MySql database with the given schema as mentioned.
 2) Insert Some users into it
 3) Change the Enviorment Variables in the .env file
-DB_Host=Your-Host
-DB_Name=Your-NAME
-DB_Username=Your-USERNAME
+DB_Host=Your-Host,
+DB_Name=Your-NAME,
+DB_Username=Your-USERNAME and
 DB_Password=Your-PASSWORD
 4) Now start the application. (node index.js).
 5) Go in the 'frontend' directory and start the Frontend (npm run start).
