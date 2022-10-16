@@ -8,7 +8,17 @@
 ![UI-2](https://user-images.githubusercontent.com/56394186/195398462-2beb4482-68c4-42d4-8b5f-d077cbbf615b.png)
 
 
+# Steps to Run:
 
+1) Create MySql database with the given schema as mentioned.
+2) Insert Some users into it
+3) Change the Enviorment Variables in the .env file:
+    DB_Host=<Your-Host>
+    DB_Name=<Your-NAME>
+    DB_Username=<Your-USERNAME>
+    DB_Password=<Your-PASSWORD>
+4) Now start the application. (node index.js).
+5) Go in the 'frontend' directory and start the Frontend (npm run start).
 
 
 # Data-Defination For MYSQL Database
@@ -22,13 +32,10 @@
 ## Create Interview_User_Relation Table
 ### `CREATE TABLE interview_user_relation (interviewId INT NOT NULL, userId INT NOT NULL, FOREIGN KEY (interviewId) REFERENCES interview(id), FOREIGN KEY (userId) REFERENCES USERS(id));`
 
-
 Now, Insert number of users in 'USERS' table.
 
 
-
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
