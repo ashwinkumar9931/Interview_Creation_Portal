@@ -1,10 +1,10 @@
 # Interview_Creation_Portal
 
 Deployed Project URL: https://ashwinkumar9931.github.io/scalar-v2/  
-[Server Latency Might Be High] [Please Wait! Till you see the list of users and interviews]
-
+[Server Latency Might Be High  Please Wait! Till you see the list of users and interviews ]
+#
 ![UI-1](https://user-images.githubusercontent.com/56394186/195398448-c973ee6f-baeb-4c03-95cf-3d050907e33a.png)
-
+#
 
 
 ![UI-2](https://user-images.githubusercontent.com/56394186/195398462-2beb4482-68c4-42d4-8b5f-d077cbbf615b.png)
@@ -12,15 +12,15 @@ Deployed Project URL: https://ashwinkumar9931.github.io/scalar-v2/
 
 # Steps to Run:
 
-1) Create MySql database with the given schema as mentioned.
-2) Insert Some users into it
-3) Change the Enviorment Variables in the .env file
-DB_Host=Your-Host,
-DB_Name=Your-NAME,
-DB_Username=Your-USERNAME and
-DB_Password=Your-PASSWORD
-4) Now start the application. (node index.js).
-5) Go in the 'frontend' directory and start the Frontend (npm run start).
+1) Create MySql database with the given schema as mentioned.  
+2) Insert Some users into it  
+3) Change the Enviorment Variables in the .env file  
+      DB_Host=Your-Host  
+      DB_Name=Your-NAME  
+      DB_Username=Your-USERNAME  
+      DB_Password=Your-PASSWORD  
+4) Now start the application. (node index.js).  
+5) Go in the 'frontend' directory and start the Frontend (npm run start).  
 
 
 # Data-Defination For MYSQL Database
